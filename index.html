@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="box">
+      <h1 class="title">Calculate a weight of an object on a planet</h1>
+      <form class="text">
+
+        <input
+          type="number"
+          id="mass"
+          value=""
+          placeholder="Mass in Killogram"
+          required
+        />
+        <select id="sel" required>
+          <option value="none">--Select Planet--</option>
+          <option value="Earth" class="Earth">Earth</option>
+          <option value="Jupiter" class="Jupiter">Jupiter</option>
+          <option value="Mars" class="Mars">Mars</option>
+          <option value="Mercury" class="Mercury">Mercury</option>
+          <option value="Moon" class="Moon">Moon</option>
+          <option value="Neptune" class="Neptune">Neptune</option>
+          <option value="Pluto" class="Pluto">Pluto</option>
+          <option value="Saturn" class="Saturn">Saturn</option>
+          <option value="Uranus" class="Uranus">Uranus</option>
+          <option value="Venus" class="Venus">Venus</option>
+        </select>
+        <button id="butt">Calculate weight</button>
+      </form>
+      <div class="container">
+        <h1 id="requireMass">MASS IS REQUIRE</h1>
+        <h1 id="requireChoose">CHOOSE THE PLANET</h1>
+        <div class="image">
+          <img src="image/earth.png" alt="" />
+        </div>
+        <div class="description">
+          <div class="desText">
+            <h2 id="desc1"></h2>
+            <h2 id="desc2"></h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+  </body>
+</html>

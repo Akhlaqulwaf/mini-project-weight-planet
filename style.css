@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .box {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-image: url("image/galaxy.gif");
+  }
+  .text {
+    text-align: center;
+    margin-top: 5px;
+  }
+  .title {
+    color: white;
+    text-align: center;
+  }
+  #mass,
+  #sel{
+    height: 30px;
+    width: 15%;
+    color: black;
+  }
+  #mass{
+    margin-right: 5px;
+  }
+  #sel{
+    margin-right: 10px;
+  }
+  #butt{
+    height: 30px;
+    width: 10%;
+    background-color: #70717d;
+    border: none;
+    border-radius: 2px;
+  }
+
+  .container {
+    display: flex;
+    background-color: #70717d;
+    opacity: 0.5;
+    padding: 20px;
+    color: black;
+    margin: 10px auto;
+    width: 90%;
+    height: 80%;
+    border-radius: 2px;
+  }
+  .image {
+    opacity: 1;
+    margin: 0 auto;
+    display: flex;
+    height: 100%;
+  }
+  .image img{
+    height: 100%;
+    margin-top: auto;
+  }
+  .description {
+    margin: 9rem auto;
+    background-color: #68696b;
+    opacity: 0.6;
+    font-size: 20px;
+    color: white;
+    display: none;
+    width: 40%;
+  }
+  .desText {
+    margin: 0 auto;
+  }
+  #requireMass,
+  #requireChoose {
+    display: none;
+    margin: 0 auto;
+  }
+  #requireMass,
+  #requireChoose {
+    background-color: #70717d;
+    opacity: 0.6;
+    font-size: 24px;
+    color: white;
+    width: 80%;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+  }
+  #desc1{
+    padding-top: 10px;
+  }
+  #desc2{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2.5rem;
+    width: 50%;
+    height: 50%;
+    border-radius: 100%;
+    background-color: #70717d;
+    opacity: 1;
+  }
